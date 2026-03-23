@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-e3ur_+ir+)@3!zj9#*=dd&gai@(1g43@4t^j43@k#ccvq=a$+_
 DEBUG = True
 
 
+
 # Dynamically set ALLOWED_HOSTS for Codespace and localhost
 import os
 codespace_name = os.environ.get('CODESPACE_NAME')
